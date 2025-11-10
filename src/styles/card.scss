@@ -8,12 +8,7 @@
   padding: 32px 16px 16px;
   border: 1px solid $border-color;
   border-radius: 5px;
-
-  &__image {
-    width: 160px;
-    height: 134px;
-    align-self: center;
-  }
+  transition: 300ms;
 
   &__title {
     margin: 40px 0 4px;
@@ -21,6 +16,21 @@
     font-weight: 500;
     line-height: 18px;
     color: $primary-black;
+  }
+
+  &:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+      .card__title{
+        color: #34568b;
+      }
+  }
+
+  &__image {
+    width: 160px;
+    height: 134px;
+    align-self: center;
   }
 
   &__product-code {
