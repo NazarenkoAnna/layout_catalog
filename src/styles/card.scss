@@ -16,15 +16,16 @@
     font-weight: 500;
     line-height: 18px;
     color: $primary-black;
+    transition: 300ms;
   }
 
-  &:hover{
+  &:hover {
     transform: scale(1.2);
     cursor: pointer;
 
-      .card__title{
-        color: #34568b;
-      }
+    .card__title {
+      color: $titleHover;
+    }
   }
 
   &__image {

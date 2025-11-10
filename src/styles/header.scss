@@ -38,6 +38,7 @@
     text-transform: uppercase;
     position: relative;
     display: inline-block;
+    transition: 300ms;
 
     &.is-active {
       color: $blue;
@@ -59,8 +60,4 @@
       color: $blue;
     }
   }
-}
-
-.nav-item + .nav-item {
-  margin-left: 20px;
 }
